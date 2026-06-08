@@ -1,0 +1,40 @@
+# Build output
+build/
+Debug/
+Release/
+debug/
+release/
+Objects/
+Listings/
+
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.axf
+*.lst
+
+# Keil
+*.uvguix.*
+*.uvgui.*
+*.bak
+*.dep
+JLinkLog.txt
+
+# Qt
+*.user
+*.pro.user
+moc_*
+ui_*.h
+qrc_*.cpp
+Makefile
+Makefile.*
+
+# System
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
